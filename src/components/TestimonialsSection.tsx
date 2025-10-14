@@ -1,4 +1,12 @@
 import { Button } from "@/components/ui/button";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
 
 const TestimonialsSection = () => {
   const testimonials = [
@@ -9,8 +17,6 @@ const TestimonialsSection = () => {
     "Not cringe, not fake just real social media game that makes sense.",
   ];
 
-  const duplicatedTestimonials = [...testimonials, ...testimonials];
-
   return (
     <section className="py-20 px-4 relative overflow-hidden">
       <div className="max-w-6xl mx-auto space-y-12">
@@ -18,18 +24,32 @@ const TestimonialsSection = () => {
           What Guys Are Saying
         </h2>
 
-        <div className="relative">
-          <div className="flex gap-6 animate-scroll hover:pause">
-            {duplicatedTestimonials.map((testimonial, index) => (
-              <div
-                key={index}
-                className="flex-shrink-0 w-80 bg-card border border-primary/20 rounded-2xl p-6 backdrop-blur-sm"
-              >
-                <p className="text-lg text-foreground">{testimonial}</p>
-              </div>
+        <Carousel
+          opts={{
+            align: "start",
+            loop: true,
+          }}
+          plugins={[
+            Autoplay({
+              delay: 3000,
+            }),
+          ]}
+          className="w-full max-w-4xl mx-auto"
+        >
+          <CarouselContent>
+            {testimonials.map((testimonial, index) => (
+              <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/2">
+                <div className="p-2">
+                  <div className="bg-card border border-primary/20 rounded-2xl p-6 backdrop-blur-sm h-full">
+                    <p className="text-lg text-foreground">{testimonial}</p>
+                  </div>
+                </div>
+              </CarouselItem>
             ))}
-          </div>
-        </div>
+          </CarouselContent>
+          <CarouselPrevious className="hidden md:flex" />
+          <CarouselNext className="hidden md:flex" />
+        </Carousel>
 
         <div className="text-center space-y-8">
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
