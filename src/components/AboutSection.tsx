@@ -1,8 +1,6 @@
 import { Button } from "@/components/ui/button";
-
 const AboutSection = () => {
-  return (
-    <section className="py-20 px-4 relative">
+  return <section className="py-20 px-4 relative">
       <div className="max-w-4xl mx-auto space-y-12">
         <div className="text-center space-y-6">
           <h2 className="text-4xl md:text-5xl font-heading font-bold glow-text">
@@ -32,9 +30,7 @@ const AboutSection = () => {
             </li>
           </ul>
 
-          <p className="text-center text-muted-foreground max-w-2xl mx-auto pt-6">
-            The truth is: social media changed the game. You can spend $1000 on dates or even more investing on girls who then cheat on you, but for $47 we teach you everything and how to understand this game not hate them but understand them and lifelong knowledge.
-          </p>
+          <p className="text-center text-muted-foreground max-w-2xl mx-auto pt-6">The truth is: social media changed the game. You can spend $1000 on dates or even more investing on girls who then cheat on you, but for $47 as a playboy I teach you everything and how to understand this game not hate them but understand them and lifelong knowledge.</p>
         </div>
 
         <div className="bg-card border border-primary/20 rounded-3xl p-8 md:p-12 text-center space-y-6 backdrop-blur-sm">
@@ -44,17 +40,11 @@ const AboutSection = () => {
             <p className="text-sm text-muted-foreground">No subscriptions. No filler. Just game that works.</p>
           </div>
 
-          <Button
-            size="lg"
-            className="glow-button bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-lg px-8 py-6 rounded-full font-heading font-semibold transition-all duration-300 hover:scale-105"
-            onClick={() => window.open('https://gumroad.com/checkout?_gl=1*1rvg7xg*_ga*MTczMjA2OTkxMy4xNzU3NDI3MDA3*_ga_6LJN6D94N6*czE3NjAzMzM5MjEkbzE3JGcxJHQxNzYwMzM2NjM5JGo1NSRsMCRoMA..', '_blank')}
-          >
+          <Button size="lg" className="glow-button bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-lg px-8 py-6 rounded-full font-heading font-semibold transition-all duration-300 hover:scale-105" onClick={() => window.open('https://gumroad.com/checkout?_gl=1*1rvg7xg*_ga*MTczMjA2OTkxMy4xNzU3NDI3MDA3*_ga_6LJN6D94N6*czE3NjAzMzM5MjEkbzE3JGcxJHQxNzYwMzM2NjM5JGo1NSRsMCRoMA..', '_blank')}>
             Buy Now
           </Button>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AboutSection;
