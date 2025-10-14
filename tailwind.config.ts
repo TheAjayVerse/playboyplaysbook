@@ -75,7 +75,7 @@ export default {
         "float": "float 6s ease-in-out infinite",
         "float-slow": "float-slow 8s ease-in-out infinite",
         "glow-pulse": "glow-pulse 2s ease-in-out infinite",
-        "scroll": "scroll 40s linear infinite",
+        "scroll": "scroll 20s linear infinite",
         "fade-in": "fade-in 0.6s ease-out",
       },
     },
