@@ -33,7 +33,13 @@ const TestimonialsSection = () => {
               {testimonials.map((testimonial, index) => <CarouselItem key={index} className="md:basis-1/2">
                   <div className="p-2">
                     <div className="border-2 border-primary/30 rounded-xl overflow-hidden backdrop-blur-sm">
-                      <img src={testimonial} alt={`Customer review ${index + 1}`} className="w-full h-auto" />
+                      <img 
+                        src={testimonial} 
+                        alt={`Customer review ${index + 1} - Real testimonial from Playboys Playbook user`}
+                        loading="lazy"
+                        decoding="async"
+                        className="w-full h-auto" 
+                      />
                     </div>
                   </div>
                 </CarouselItem>)}
