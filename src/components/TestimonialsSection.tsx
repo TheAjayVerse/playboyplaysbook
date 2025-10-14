@@ -7,6 +7,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
+import { useRef } from "react";
 
 const TestimonialsSection = () => {
   const testimonials = [
@@ -17,6 +18,10 @@ const TestimonialsSection = () => {
     "Not cringe, not fake just real social media game that makes sense.",
   ];
 
+  const autoplayPlugin = useRef(
+    Autoplay({ delay: 2500, stopOnInteraction: true })
+  );
+
   return (
     <section className="py-20 px-4 relative overflow-hidden">
       <div className="max-w-6xl mx-auto space-y-12">
@@ -24,32 +29,32 @@ const TestimonialsSection = () => {
           What Guys Are Saying
         </h2>
 
-        <Carousel
-          opts={{
-            align: "start",
-            loop: true,
-          }}
-          plugins={[
-            Autoplay({
-              delay: 3000,
-            }),
-          ]}
-          className="w-full max-w-4xl mx-auto"
-        >
-          <CarouselContent>
-            {testimonials.map((testimonial, index) => (
-              <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/2">
-                <div className="p-2">
-                  <div className="bg-card border border-primary/20 rounded-2xl p-6 backdrop-blur-sm h-full">
-                    <p className="text-lg text-foreground">{testimonial}</p>
+        <div className="relative px-12 md:px-16">
+          <Carousel
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+            plugins={[autoplayPlugin.current]}
+            className="w-full max-w-4xl mx-auto"
+            onMouseEnter={autoplayPlugin.current.stop}
+            onMouseLeave={autoplayPlugin.current.reset}
+          >
+            <CarouselContent>
+              {testimonials.map((testimonial, index) => (
+                <CarouselItem key={index} className="md:basis-1/2">
+                  <div className="p-2">
+                    <div className="bg-card border border-primary/20 rounded-2xl p-6 backdrop-blur-sm h-full min-h-[120px] flex items-center">
+                      <p className="text-lg text-foreground">{testimonial}</p>
+                    </div>
                   </div>
-                </div>
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
-        </Carousel>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="absolute left-0 -translate-x-0" />
+            <CarouselNext className="absolute right-0 translate-x-0" />
+          </Carousel>
+        </div>
 
         <div className="text-center space-y-8">
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
