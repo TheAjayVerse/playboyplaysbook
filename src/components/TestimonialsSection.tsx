@@ -8,14 +8,29 @@ import {
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import { useRef } from "react";
+import review1 from "@/assets/review-1.png";
+import review2 from "@/assets/review-2.png";
+import review3 from "@/assets/review-3.png";
+import review4 from "@/assets/review-4.png";
+import review5 from "@/assets/review-5.png";
+import review6 from "@/assets/review-6.png";
+import review7 from "@/assets/review-7.png";
+import review8 from "@/assets/review-8.png";
+import review9 from "@/assets/review-9.png";
+import review10 from "@/assets/review-10.png";
 
 const TestimonialsSection = () => {
   const testimonials = [
-    "Bro this actually worked… she replied the SAME NIGHT.",
-    "I used your message flow she double-texted first for the first time ever.",
-    "I wasted money on so many dates before. This is worth my own investment.",
-    "She literally said: 'I don't know why I can't stop talking to you.'",
-    "Not cringe, not fake just real social media game that makes sense.",
+    review1,
+    review2,
+    review3,
+    review4,
+    review5,
+    review6,
+    review7,
+    review8,
+    review9,
+    review10,
   ];
 
   const autoplayPlugin = useRef(
@@ -44,8 +59,12 @@ const TestimonialsSection = () => {
               {testimonials.map((testimonial, index) => (
                 <CarouselItem key={index} className="md:basis-1/2">
                   <div className="p-2">
-                    <div className="bg-card border border-primary/20 rounded-2xl p-6 backdrop-blur-sm h-full min-h-[120px] flex items-center">
-                      <p className="text-lg text-foreground">{testimonial}</p>
+                    <div className="border-2 border-primary/30 rounded-xl overflow-hidden backdrop-blur-sm">
+                      <img 
+                        src={testimonial} 
+                        alt={`Customer review ${index + 1}`}
+                        className="w-full h-auto"
+                      />
                     </div>
                   </div>
                 </CarouselItem>
