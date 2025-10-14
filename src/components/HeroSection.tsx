@@ -2,11 +2,11 @@ import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
   return (
-    <header className="min-h-screen flex items-center justify-center px-4 relative">
+    <section className="min-h-screen flex items-center justify-center px-4 relative">
       <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
         <h1 className="text-5xl md:text-7xl font-heading font-bold leading-tight glow-text">
-          Stop Getting Ghosted in Modern Dating{" "}
-          <span className="gradient-text">Start Understanding the Game</span>
+          Stop Getting Ghosted.{" "}
+          <span className="gradient-text">Start Understanding the Game.</span>
         </h1>
         
         <div className="space-y-4 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -25,7 +25,7 @@ const HeroSection = () => {
           Get The Playboys Playbook $47
         </Button>
       </div>
-    </header>
+    </section>
   );
 };
 

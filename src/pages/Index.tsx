@@ -7,11 +7,11 @@ const Index = () => {
   return (
     <div className="relative min-h-screen">
       <FloatingBubbles />
-      <main className="relative z-10">
+      <div className="relative z-10">
         <HeroSection />
         <AboutSection />
         <TestimonialsSection />
-      </main>
+      </div>
     </div>
   );
 };
