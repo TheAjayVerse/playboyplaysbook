@@ -7,9 +7,7 @@ const AboutSection = () => {
             The Playbook That Actually Works in this generation
           </h2>
           
-          <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-            This isn't another "pickup guide." It's a tested system used by over 500 guys to get real results.
-          </p>
+          <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">This isn't another "red-pill guide." It's a tested system used by over 500+ guys WHO got actual results.</p>
         </div>
 
         <div className="space-y-6 text-lg">
