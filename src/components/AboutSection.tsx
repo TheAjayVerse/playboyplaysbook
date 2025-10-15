@@ -18,6 +18,18 @@ const AboutSection = () => {
           <ul className="space-y-4 max-w-2xl mx-auto">
             <li className="flex items-start gap-3">
               <span className="text-secondary text-xl">•</span>
+              <span>Spot red flags in a girl</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-secondary text-xl">•</span>
+              <span>How to start texting - exact words</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-secondary text-xl">•</span>
+              <span>Build up from text to call to video call to meeting her on a date</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-secondary text-xl">•</span>
               <span>Text in a way that keeps her hooked</span>
             </li>
             <li className="flex items-start gap-3">
@@ -26,11 +38,27 @@ const AboutSection = () => {
             </li>
             <li className="flex items-start gap-3">
               <span className="text-secondary text-xl">•</span>
+              <span>How to keep the spark in the relationship</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-secondary text-xl">•</span>
+              <span>How to not be a push over</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-secondary text-xl">•</span>
+              <span>How to create mystery</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-secondary text-xl">•</span>
               <span>Handle "dry" energy or ghosting like a pro</span>
             </li>
           </ul>
 
           <p className="text-center text-muted-foreground max-w-2xl mx-auto pt-6">The truth is: social media changed the game. You can spend $1000 on dates or even more investing on girls who then cheat on you, but for $47 as a playboy I teach you everything and how to understand this game not hate them but understand them and lifelong knowledge.</p>
+          
+          <p className="text-center font-medium text-foreground pt-4">
+            <span className="text-secondary">BONUS:</span> I added a self improvement looksmaxxing guide for y'all
+          </p>
         </div>
 
         <div className="bg-card border border-primary/20 rounded-3xl p-8 md:p-12 text-center space-y-6 backdrop-blur-sm">
