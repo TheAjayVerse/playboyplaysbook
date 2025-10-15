@@ -14,35 +14,44 @@ import review9 from "@/assets/review-9.png";
 import review10 from "@/assets/review-10.png";
 const TestimonialsSection = () => {
   const testimonials = [review1, review2, review3, review4, review5, review6, review7, review8, review9, review10];
-  const autoplayPlugin = useRef(Autoplay({
-    delay: 2500,
-    stopOnInteraction: true
-  }));
-  return <section className="py-20 px-4 relative overflow-hidden">
+  const autoplayPlugin = useRef(
+    Autoplay({
+      delay: 2500,
+      stopOnInteraction: true,
+    }),
+  );
+  return (
+    <section className="py-20 px-4 relative overflow-hidden">
       <div className="max-w-6xl mx-auto space-y-12">
-        <h2 className="text-4xl md:text-5xl font-heading font-bold text-center glow-text">
-          What Guys Are Saying
-        </h2>
+        <h2 className="text-4xl md:text-5xl font-heading font-bold text-center glow-text">What Guys Are Saying</h2>
 
         <div className="relative px-12 md:px-16">
-          <Carousel opts={{
-          align: "start",
-          loop: true
-        }} plugins={[autoplayPlugin.current]} className="w-full max-w-4xl mx-auto" onMouseEnter={autoplayPlugin.current.stop} onMouseLeave={autoplayPlugin.current.reset}>
+          <Carousel
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+            plugins={[autoplayPlugin.current]}
+            className="w-full max-w-4xl mx-auto"
+            onMouseEnter={autoplayPlugin.current.stop}
+            onMouseLeave={autoplayPlugin.current.reset}
+          >
             <CarouselContent>
-              {testimonials.map((testimonial, index) => <CarouselItem key={index} className="md:basis-1/2">
+              {testimonials.map((testimonial, index) => (
+                <CarouselItem key={index} className="md:basis-1/2">
                   <div className="p-2">
                     <div className="border-2 border-primary/30 rounded-xl overflow-hidden backdrop-blur-sm">
-                      <img 
-                        src={testimonial} 
+                      <img
+                        src={testimonial}
                         alt={`Customer review ${index + 1} - Real testimonial from Playboys Playbook user`}
                         loading="lazy"
                         decoding="async"
-                        className="w-full h-auto" 
+                        className="w-full h-auto"
                       />
                     </div>
                   </div>
-                </CarouselItem>)}
+                </CarouselItem>
+              ))}
             </CarouselContent>
             <CarouselPrevious className="absolute left-0 -translate-x-0" />
             <CarouselNext className="absolute right-0 translate-x-0" />
@@ -50,13 +59,25 @@ const TestimonialsSection = () => {
         </div>
 
         <div className="text-center space-y-8">
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Real results from 500+ guys who are just like you. Stop waiting start learning the game.</p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Great results from 500+ guys who are just like you. Stop waiting start learning the game.
+          </p>
 
-          <Button size="lg" className="glow-button bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-lg px-8 py-6 rounded-full font-heading font-semibold transition-all duration-300 hover:scale-105" onClick={() => window.open('https://gumroad.com/checkout?_gl=1*1rvg7xg*_ga*MTczMjA2OTkxMy4xNzU3NDI3MDA3*_ga_6LJN6D94N6*czE3NjAzMzM5MjEkbzE3JGcxJHQxNzYwMzM2NjM5JGo1NSRsMCRoMA..', '_blank')}>
+          <Button
+            size="lg"
+            className="glow-button bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-lg px-8 py-6 rounded-full font-heading font-semibold transition-all duration-300 hover:scale-105"
+            onClick={() =>
+              window.open(
+                "https://gumroad.com/checkout?_gl=1*1rvg7xg*_ga*MTczMjA2OTkxMy4xNzU3NDI3MDA3*_ga_6LJN6D94N6*czE3NjAzMzM5MjEkbzE3JGcxJHQxNzYwMzM2NjM5JGo1NSRsMCRoMA..",
+                "_blank",
+              )
+            }
+          >
             Get the full playbook
           </Button>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
 export default TestimonialsSection;
