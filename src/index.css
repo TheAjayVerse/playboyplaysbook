@@ -62,12 +62,10 @@
 @layer utilities {
   .glow-text {
     text-shadow: var(--glow-primary);
-    will-change: text-shadow;
   }
   
   .glow-button {
     box-shadow: var(--glow-secondary);
-    will-change: transform, opacity;
   }
   
   .gradient-text {
@@ -75,10 +73,6 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
-  
-  .animate-float-slow {
-    will-change: transform;
   }
 }
 
