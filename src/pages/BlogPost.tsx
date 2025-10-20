@@ -1,4 +1,5 @@
 import { useParams, Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 import textingGameImage from "@/assets/texting-game.jpg";
@@ -7,11 +8,13 @@ import approachHerImage from "@/assets/approach-her.jpg";
 import attractHerVibeImage from "@/assets/attract-her-vibe.jpg";
 import becomeTheManImage from "@/assets/become-the-man.jpg";
 
-const blogContent: Record<string, { title: string; date: string; content: string; image: string }> = {
+const blogContent: Record<string, { title: string; date: string; content: string; image: string; metaDescription: string; keywords: string[] }> = {
   "texting-game-blueprint": {
     title: "HOW TO IMPROVE YOUR TEXT GAME",
     date: "October 20, 2025",
     image: textingGameImage,
+    metaDescription: "Master texting game from the Playboy's Playbook. Learn how to text women with confidence, create attraction through messages, and avoid desperate energy. Real dating advice that works.",
+    keywords: ["texting game", "how to text a girl", "dating advice for men", "text game tips", "playboy mindset", "attraction through texting", "confidence with women", "dating coach"],
     content: `
 # HOW TO IMPROVE YOUR TEXT GAME
 ## (From the Playboy's Playbook Mindset)
@@ -83,6 +86,8 @@ That's how you text her and keep her hooked. If y'all interested, check out my p
     title: "HOW TO KEEP HER HOOKED (WITHOUT LOSING YOURSELF)",
     date: "October 20, 2025",
     image: keepingHerHookedImage,
+    metaDescription: "Learn how to keep her interested without losing yourself. Master the art of staying mysterious, maintaining your frame, and building lasting attraction. Real playboy mindset advice.",
+    keywords: ["keep her interested", "relationship advice", "dating tips for men", "maintain attraction", "playboy mindset", "keep her hooked", "dating psychology", "relationship game"],
     content: `
 # HOW TO KEEP HER HOOKED (WITHOUT LOSING YOURSELF)
 ## (From The Playboy's Playbook Mindset)
@@ -165,6 +170,8 @@ If you want the full breakdown on how to balance all this, from texting to datin
     title: "HOW TO APPROACH HER (WITHOUT LOOKING DESPERATE)",
     date: "October 20, 2025",
     image: approachHerImage,
+    metaDescription: "Master the approach with real confidence. Learn how to talk to women without fear, read timing perfectly, and leave a lasting impression. Playboy's Playbook approach strategies.",
+    keywords: ["how to approach women", "approach anxiety", "talk to girls", "confidence with women", "first move", "dating confidence", "playboy approach", "meet women"],
     content: `
 # HOW TO APPROACH HER (WITHOUT LOOKING DESPERATE)
 ## (From The Playboy's Playbook Mindset)
@@ -267,6 +274,8 @@ If you want the full playbook on approaching, texting, calling, and making her y
     title: "HOW TO ATTRACT HER WITH YOUR VIBE",
     date: "October 20, 2025",
     image: attractHerVibeImage,
+    metaDescription: "Build magnetic aura that attracts women naturally. Learn lifestyle tips, energy management, and purpose-driven living from the Playboy's Playbook. Real attraction starts within.",
+    keywords: ["attract women naturally", "masculine energy", "build aura", "lifestyle attraction", "confidence building", "purpose driven man", "playboy lifestyle", "dating mindset"],
     content: `
 # HOW TO ATTRACT HER WITH YOUR VIBE
 ## (From The Playboy's Playbook Mindset)
@@ -360,6 +369,8 @@ If you want the full breakdown on attracting, approaching, texting, and keeping 
     title: "BECOME THE MAN SHE CAN'T IGNORE",
     date: "October 20, 2025",
     image: becomeTheManImage,
+    metaDescription: "Transform into the man women naturally chase. Complete guide to looksmaxing, gym confidence, style, and building a movie-worthy life. The ultimate Playboy's Playbook transformation.",
+    keywords: ["become attractive man", "looksmaxing", "gym confidence", "mens style", "self improvement", "dating transformation", "playboy lifestyle", "male glow up"],
     content: `
 # BECOME THE MAN SHE CAN'T IGNORE
 ## (From The Playboy's Playbook Mindset)
@@ -472,6 +483,58 @@ const BlogPost = () => {
 
   return (
     <div className="min-h-screen bg-background py-12 px-4">
+      <Helmet>
+        <title>{post.title} | Playboy's Playbook Dating Advice</title>
+        <meta name="description" content={post.metaDescription} />
+        <meta name="keywords" content={post.keywords.join(", ")} />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content={post.title} />
+        <meta property="og:description" content={post.metaDescription} />
+        <meta property="og:image" content={post.image} />
+        <meta property="article:published_time" content={new Date(post.date).toISOString()} />
+        <meta property="article:author" content="Playboy's Playbook" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={post.title} />
+        <meta name="twitter:description" content={post.metaDescription} />
+        <meta name="twitter:image" content={post.image} />
+        
+        {/* Canonical URL */}
+        <link rel="canonical" href={`https://yoursite.com/advice/${id}`} />
+      </Helmet>
+
+      {/* JSON-LD Structured Data */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": post.title,
+          "image": post.image,
+          "datePublished": new Date(post.date).toISOString(),
+          "dateModified": new Date(post.date).toISOString(),
+          "author": {
+            "@type": "Person",
+            "name": "Playboy's Playbook"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Playboy's Playbook",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://yoursite.com/logo.png"
+            }
+          },
+          "description": post.metaDescription,
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": `https://yoursite.com/advice/${id}`
+          }
+        })}
+      </script>
+
       <article className="max-w-3xl mx-auto">
         <Link to="/advice">
           <Button variant="ghost" className="mb-8 hover:bg-muted">
@@ -482,8 +545,9 @@ const BlogPost = () => {
 
         <img 
           src={post.image} 
-          alt={post.title}
+          alt={`${post.title} - Dating advice and tips from Playboy's Playbook`}
           className="w-full h-64 md:h-96 object-cover rounded-lg mb-8"
+          loading="eager"
         />
 
         <div className="mb-8">

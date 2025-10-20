@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
@@ -57,6 +58,24 @@ const blogPosts: BlogPost[] = [
 const Advice = () => {
   return (
     <div className="min-h-screen bg-background py-12 px-4">
+      <Helmet>
+        <title>Dating Advice & Tips | Playboy's Playbook - Real Game for Men</title>
+        <meta name="description" content="Learn real dating advice from the Playboy's Playbook. Master texting, approaching women, building attraction, and keeping her hooked. Over 500+ guys transformed." />
+        <meta name="keywords" content="dating advice for men, how to attract women, texting tips, approach women, playboy mindset, dating coach, relationship tips, confidence with women" />
+        
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Dating Advice & Tips | Playboy's Playbook" />
+        <meta property="og:description" content="Real dating advice that actually works. Learn the playboy mindset." />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Dating Advice & Tips | Playboy's Playbook" />
+        <meta name="twitter:description" content="Real dating advice that actually works. Learn the playboy mindset." />
+        
+        <link rel="canonical" href="https://yoursite.com/advice" />
+      </Helmet>
+
       <div className="max-w-5xl mx-auto">
         <div className="mb-8">
           <Link to="/">
@@ -90,8 +109,9 @@ const Advice = () => {
                   <div className="md:w-64 h-48 md:h-auto flex-shrink-0">
                     <img 
                       src={post.image} 
-                      alt={post.title}
+                      alt={`${post.title} - Dating advice from Playboy's Playbook`}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
                     />
                   </div>
                 </div>
