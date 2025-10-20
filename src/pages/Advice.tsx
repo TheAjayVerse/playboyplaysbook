@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 import textingGameImage from "@/assets/texting-game.jpg";
 import keepingHerHookedImage from "@/assets/keeping-her-hooked.jpg";
+import approachHerImage from "@/assets/approach-her.jpg";
 
 interface BlogPost {
   id: string;
@@ -26,6 +27,13 @@ const blogPosts: BlogPost[] = [
     title: "HOW TO KEEP HER HOOKED (WITHOUT LOSING YOURSELF)",
     excerpt: "From the Playboy's Playbook Mindset - Most guys know how to get her attention. Few know how to keep it. Learn the energy that keeps her addicted.",
     image: keepingHerHookedImage,
+    date: "October 20, 2025"
+  },
+  {
+    id: "approach-her",
+    title: "HOW TO APPROACH HER (WITHOUT LOOKING DESPERATE)",
+    excerpt: "From the Playboy's Playbook Mindset - Real confidence isn't about having no fear. It's about moving anyway. Learn how to make your first move count.",
+    image: approachHerImage,
     date: "October 20, 2025"
   },
   {
