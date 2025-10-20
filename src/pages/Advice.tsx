@@ -38,11 +38,11 @@ const blogPosts: BlogPost[] = [
     date: "October 20, 2025"
   },
   {
-    id: "texting-game-blueprint",
-    title: "The Texting Game Blueprint: From Match to Date",
-    excerpt: "Master the art of texting with exact frameworks and examples. Learn what to say, when to say it, and how to build attraction through text.",
-    image: "https://images.unsplash.com/photo-1516387938699-a93567ec168e?w=400&h=300&fit=crop",
-    date: "March 12, 2024"
+    id: "attract-her-vibe",
+    title: "HOW TO ATTRACT HER WITH YOUR VIBE",
+    excerpt: "If you don't find your own life interesting, why should she? Real attraction isn't built on looks or money — it's built on aura.",
+    image: attractHerVibeImage,
+    date: "October 20, 2025"
   },
   {
     id: "building-mystery",
