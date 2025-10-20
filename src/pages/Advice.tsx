@@ -6,6 +6,7 @@ import textingGameImage from "@/assets/texting-game.jpg";
 import keepingHerHookedImage from "@/assets/keeping-her-hooked.jpg";
 import approachHerImage from "@/assets/approach-her.jpg";
 import attractHerVibeImage from "@/assets/attract-her-vibe.jpg";
+import becomeTheManImage from "@/assets/become-the-man.jpg";
 
 interface BlogPost {
   id: string;
@@ -42,6 +43,13 @@ const blogPosts: BlogPost[] = [
     title: "HOW TO ATTRACT HER WITH YOUR VIBE",
     excerpt: "If you don't find your own life interesting, why should she? Real attraction isn't built on looks or money — it's built on aura.",
     image: attractHerVibeImage,
+    date: "October 20, 2025"
+  },
+  {
+    id: "become-the-man",
+    title: "BECOME THE MAN SHE CAN'T IGNORE",
+    excerpt: "Before you ever say a word, your energy, presence, and lifestyle are already speaking for you. Learn to become the man who naturally attracts.",
+    image: becomeTheManImage,
     date: "October 20, 2025"
   },
   {
