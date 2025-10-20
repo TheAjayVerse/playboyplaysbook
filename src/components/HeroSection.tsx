@@ -1,8 +1,16 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
     <section className="min-h-screen flex items-center justify-center px-4 relative">
+      <nav className="absolute top-8 right-8 z-20">
+        <Link to="/advice">
+          <Button variant="outline" className="hover:bg-muted">
+            Dating Advice
+          </Button>
+        </Link>
+      </nav>
       <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
         <h1 className="text-5xl md:text-7xl font-heading font-bold leading-tight glow-text">
           Stop Getting Ghosted.{" "}
