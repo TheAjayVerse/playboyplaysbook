@@ -20,42 +20,42 @@ You ever notice how most guys treat texting like a job interview?
 
 Bro… that's how you kill a vibe before it even breathes.
 
-Texting isn't about words. It's energy always women are led by feeling brother thats why some women will be with ugly guys and you like HOWW nah bro he understand the game and know how to make her feel. Every message you send is either pulling her in or pushing her away. The moment you start trying too hard, she feels it — instantly. Women are emotional antennas; they pick up energy faster than Wi-Fi.
+Texting isn't about words. It's energy. Women are led by feeling brother, that's why some women will be with ugly guys and you like HOWW. Nah bro, he understands the game and knows how to make her feel. Every message you send is either pulling her in or pushing her away. The moment you start trying too hard, she feels it instantly. Women are emotional antennas; they pick up energy faster than Wi-Fi.
 
 ## 1. The Game Starts Before You Hit Send
 
 If you text out of boredom, she'll feel it.
 If you text because you want her to like you, she'll feel that too.
-But when you text from purpose — with calm confidence, like a man who's got motion — she leans in.
+But when you text from purpose, with calm confidence, like a man who's got motion, she leans in.
 
 Your vibe before you send the text is what decides how she responds. Always check your energy first. If you're anxious, gym first. If you're overthinking, breathe. Then text.
 
 ## 2. Keep It Real, Not Robotic
 
 Your first message shouldn't sound like ChatGPT wrote it.
-Forget emojis and essays hit her with something chill and human:
+Forget emojis and essays, hit her with something chill and human:
 
 "Yo, it's [your name]."
 
-No emojis, no filters, no try-hard energy. That's how real confidence talks. or even better start the convo without even saying hi it could even be like looking for a good place to eat any rcommedations
+No emojis, no filters, no try-hard energy. That's how real confidence talks. Or even better, start the convo without even saying hi. It could even be like looking for a good place to eat, any recommendations?
 
 From there, keep it light. Compliment overlooked things. "Your playlist crazy," hits harder than "You're beautiful." Every guy says that. You don't want to sound like every guy.
 
 ## 3. Text With Purpose
 
 Don't text just to talk. Text to move.
-Every message should have a reason — to know her deeper, hop on a call, or set a date. You're leading, not chasing. Women respect men who move with direction.
+Every message should have a reason: to know her deeper, hop on a call, or set a date. You're leading, not chasing. Women respect men who move with direction.
 
-The goal isn't to make her laugh all day — it's to make her feel something THATS why she likes playboys cause they know how to make women feel. Because emotion creates memory. And memory builds attraction.
+The goal isn't to make her laugh all day. It's to make her feel something. THAT'S why she likes playboys cause they know how to make women feel. Because emotion creates memory. And memory builds attraction.
 
 ## 4. Silence Speaks Louder Than Double Texts
 
 If she takes 2 hours, you take 1.
-You're not being cold — you're showing you've got things going on.
+You're not being cold. You're showing you've got things going on.
 Patience = confidence.
 Neediness = death.
 
-The moment she feels you chasing, she pulls back. But when you're calm, focused, and in motion she'll start chasing you. That's the shift.
+The moment she feels you chasing, she pulls back. But when you're calm, focused, and in motion, she'll start chasing you. That's the shift.
 
 ## 5. BROOOO...Be the Mystery She Wants to Solve
 
@@ -68,9 +68,9 @@ A man who can make a woman feel something through a few words… that's power.
 
 ## Final Word
 
-So next time you open your phone, remember bro texting isn't about filling time. It's about building energy. You're not trying to win her over; you're showing her what it feels like to be around a man who's grounded, confident, and unbothered.
+So next time you open your phone, remember bro, texting isn't about filling time. It's about building energy. You're not trying to win her over; you're showing her what it feels like to be around a man who's grounded, confident, and unbothered.
 
-That's how you text her — and keep her hooked if yall interested check out my playboys playbook where ill also tell you how to message then call her then video call and plan a date i guide you through everything that worked for me everything is handed to you how to text her exactly what to and approach her where over 500+ guys have assisted.
+That's how you text her and keep her hooked. If y'all interested, check out my playboys playbook where I'll also tell you how to message then call her then video call and plan a date. I guide you through everything that worked for me, everything is handed to you, how to text her exactly what to say and approach her where over 500+ guys have been assisted.
 
 **[Get The Playboy's Playbook Now →](https://gumroad.com)**
     `
