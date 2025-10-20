@@ -66,7 +66,7 @@ const Advice = () => {
             </Button>
           </Link>
           <h1 className="text-4xl md:text-5xl font-heading font-bold glow-text mb-4">
-            Dating Advice & Insights
+            Dating Advice & Tips
           </h1>
           <p className="text-muted-foreground text-lg">
             Real and learn what actually works from a playboys perspective.
