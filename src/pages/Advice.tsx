@@ -69,7 +69,7 @@ const Advice = () => {
             Dating Advice & Insights
           </h1>
           <p className="text-muted-foreground text-lg">
-            Real game, no fluff. Learn what actually works.
+            Real and learn what actually works from a playboys perspective.
           </p>
         </div>
 
