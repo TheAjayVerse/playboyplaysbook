@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
+import textingGameImage from "@/assets/texting-game.jpg";
 
 interface BlogPost {
   id: string;
@@ -13,11 +14,11 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
-    id: "understanding-red-flags",
-    title: "Understanding Red Flags: What to Watch Out For",
-    excerpt: "Learn to spot the early warning signs that most guys miss. Save yourself time, energy, and heartbreak by recognizing these patterns.",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=300&fit=crop",
-    date: "March 15, 2024"
+    id: "texting-game-blueprint",
+    title: "HOW TO IMPROVE YOUR TEXT GAME",
+    excerpt: "From the Playboy's Playbook Mindset - Texting isn't about words. It's energy. Learn how to make her feel something through your messages.",
+    image: textingGameImage,
+    date: "October 20, 2025"
   },
   {
     id: "texting-game-blueprint",

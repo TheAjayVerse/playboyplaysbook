@@ -1,70 +1,78 @@
 import { useParams, Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
+import textingGameImage from "@/assets/texting-game.jpg";
 
 const blogContent: Record<string, { title: string; date: string; content: string; image: string }> = {
-  "understanding-red-flags": {
-    title: "Understanding Red Flags: What to Watch Out For",
-    date: "March 15, 2024",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&h=400&fit=crop",
-    content: `
-# Spot the Red Flags Before It's Too Late
-
-Most guys ignore the signs. They rationalize. They make excuses. And then they wonder why they got played.
-
-## Early Warning Signs
-
-**1. Inconsistent Communication**
-If she's hot and cold with her texting, that's not her being "busy." That's her showing you where you rank in her priorities.
-
-**2. She Keeps You at a Distance**
-When a girl is into you, she'll make time. If she's always "too busy" to meet up but posting on social media constantly, you're her backup plan.
-
-**3. She Talks About Other Guys**
-This is her testing your reaction. Don't get jealous. Don't compete. Withdraw your attention instead.
-
-## What To Do About It
-
-The best response to red flags? Standards. Don't ignore them hoping they'll change. Recognize them early and make your decision accordingly.
-
-Remember: You can't negotiate attraction. You can only qualify or disqualify.
-    `
-  },
   "texting-game-blueprint": {
-    title: "The Texting Game Blueprint: From Match to Date",
-    date: "March 12, 2024",
-    image: "https://images.unsplash.com/photo-1516387938699-a93567ec168e?w=800&h=400&fit=crop",
+    title: "HOW TO IMPROVE YOUR TEXT GAME",
+    date: "October 20, 2025",
+    image: textingGameImage,
     content: `
-# Master the Art of Texting
+# HOW TO IMPROVE YOUR TEXT GAME
+## (From the Playboy's Playbook Mindset)
 
-Texting is a skill. And like any skill, there's a framework that works.
+You ever notice how most guys treat texting like a job interview?
 
-## The Opening
+"Hey."
+"What's up."
+"How's your day."
 
-**First Message Formula:**
-- Reference something specific from her profile
-- Add a playful question or statement
-- Keep it short (2-3 sentences max)
+Bro… that's how you kill a vibe before it even breathes.
 
-Example: "I see you're into hiking. Bold claim, but I bet you've never done [local challenging trail]. True or false?"
+Texting isn't about words. It's energy always women are led by feeling brother thats why some women will be with ugly guys and you like HOWW nah bro he understand the game and know how to make her feel. Every message you send is either pulling her in or pushing her away. The moment you start trying too hard, she feels it — instantly. Women are emotional antennas; they pick up energy faster than Wi-Fi.
 
-## Building Momentum
+## 1. The Game Starts Before You Hit Send
 
-**The Push-Pull Dynamic:**
-- Interest → Tease → Interest → Tease
-- Never double text when she doesn't respond
-- Match her energy, then slightly pull back
+If you text out of boredom, she'll feel it.
+If you text because you want her to like you, she'll feel that too.
+But when you text from purpose — with calm confidence, like a man who's got motion — she leans in.
 
-## Moving Off the App
+Your vibe before you send the text is what decides how she responds. Always check your energy first. If you're anxious, gym first. If you're overthinking, breathe. Then text.
 
-**Transition Statement:**
-"I'm not on here much. Text me: [your number]"
+## 2. Keep It Real, Not Robotic
 
-Don't ask. State. If she's interested, she'll text. If not, you saved yourself time.
+Your first message shouldn't sound like ChatGPT wrote it.
+Forget emojis and essays hit her with something chill and human:
 
-## The Goal
+"Yo, it's [your name]."
 
-Remember: Texting is for setting dates, not building relationships. Get off the phone and into real life as fast as possible.
+No emojis, no filters, no try-hard energy. That's how real confidence talks. or even better start the convo without even saying hi it could even be like looking for a good place to eat any rcommedations
+
+From there, keep it light. Compliment overlooked things. "Your playlist crazy," hits harder than "You're beautiful." Every guy says that. You don't want to sound like every guy.
+
+## 3. Text With Purpose
+
+Don't text just to talk. Text to move.
+Every message should have a reason — to know her deeper, hop on a call, or set a date. You're leading, not chasing. Women respect men who move with direction.
+
+The goal isn't to make her laugh all day — it's to make her feel something THATS why she likes playboys cause they know how to make women feel. Because emotion creates memory. And memory builds attraction.
+
+## 4. Silence Speaks Louder Than Double Texts
+
+If she takes 2 hours, you take 1.
+You're not being cold — you're showing you've got things going on.
+Patience = confidence.
+Neediness = death.
+
+The moment she feels you chasing, she pulls back. But when you're calm, focused, and in motion she'll start chasing you. That's the shift.
+
+## 5. BROOOO...Be the Mystery She Wants to Solve
+
+Don't overshare. Don't text every detail of your day.
+Let her wonder what you're doing.
+Your silence should make her think.
+Your words should make her feel.
+
+A man who can make a woman feel something through a few words… that's power.
+
+## Final Word
+
+So next time you open your phone, remember bro texting isn't about filling time. It's about building energy. You're not trying to win her over; you're showing her what it feels like to be around a man who's grounded, confident, and unbothered.
+
+That's how you text her — and keep her hooked if yall interested check out my playboys playbook where ill also tell you how to message then call her then video call and plan a date i guide you through everything that worked for me everything is handed to you how to text her exactly what to and approach her where over 500+ guys have assisted.
+
+**[Get The Playboy's Playbook Now →](https://gumroad.com)**
     `
   },
   "building-mystery": {
