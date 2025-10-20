@@ -73,7 +73,7 @@ const Advice = () => {
         <meta name="twitter:title" content="Dating Advice & Tips | Playboy's Playbook" />
         <meta name="twitter:description" content="Real dating advice that actually works. Learn the playboy mindset." />
         
-        <link rel="canonical" href="https://yoursite.com/advice" />
+        <link rel="canonical" href="https://ajayshustle.com/advice" />
       </Helmet>
 
       <div className="max-w-5xl mx-auto">

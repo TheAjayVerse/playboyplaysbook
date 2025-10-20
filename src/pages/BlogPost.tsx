@@ -503,7 +503,7 @@ const BlogPost = () => {
         <meta name="twitter:image" content={post.image} />
         
         {/* Canonical URL */}
-        <link rel="canonical" href={`https://yoursite.com/advice/${id}`} />
+        <link rel="canonical" href={`https://ajayshustle.com/advice/${id}`} />
       </Helmet>
 
       {/* JSON-LD Structured Data */}
@@ -524,13 +524,13 @@ const BlogPost = () => {
             "name": "Playboy's Playbook",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://yoursite.com/logo.png"
+              "url": "https://ajayshustle.com/logo.png"
             }
           },
           "description": post.metaDescription,
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": `https://yoursite.com/advice/${id}`
+            "@id": `https://ajayshustle.com/advice/${id}`
           }
         })}
       </script>
