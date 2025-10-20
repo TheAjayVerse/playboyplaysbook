@@ -21,6 +21,13 @@ const blogPosts: BlogPost[] = [
     date: "October 20, 2025"
   },
   {
+    id: "keeping-her-hooked",
+    title: "HOW TO KEEP HER HOOKED (WITHOUT LOSING YOURSELF)",
+    excerpt: "From the Playboy's Playbook Mindset - Most guys know how to get her attention. Few know how to keep it. Learn the energy that keeps her addicted.",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
+    date: "October 20, 2025"
+  },
+  {
     id: "texting-game-blueprint",
     title: "The Texting Game Blueprint: From Match to Date",
     excerpt: "Master the art of texting with exact frameworks and examples. Learn what to say, when to say it, and how to build attraction through text.",

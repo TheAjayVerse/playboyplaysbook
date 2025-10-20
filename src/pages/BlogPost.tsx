@@ -75,6 +75,88 @@ That's how you text her and keep her hooked. If y'all interested, check out my p
 **[Get The Playboy's Playbook Now - Click Here →](https://hustlerajay.gumroad.com/l/iijvra?_gl=1*acvk8e*_ga*ODg2ODE0MTQ5LjE3NTYwOTU3NTg.*_ga_6LJN6D94N6*czE3NjA5NjQ1MTYkbzI0JGcwJHQxNzYwOTY0NTE2JGo2MCRsMCRoMA..)**
     `
   },
+  "keeping-her-hooked": {
+    title: "HOW TO KEEP HER HOOKED (WITHOUT LOSING YOURSELF)",
+    date: "October 20, 2025",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=400&fit=crop",
+    content: `
+# HOW TO KEEP HER HOOKED (WITHOUT LOSING YOURSELF)
+## (From The Playboy's Playbook Mindset)
+
+Most guys know how to get her attention.
+Few know how to keep it.
+
+They start strong, smooth texts, good vibes, confidence.
+Then one small thing happens…
+They get attached too fast.
+They start overthinking.
+They lose the edge that made her want them in the first place.
+
+Listen, keeping her hooked isn't about control.
+It's about energy. The same energy that made her curious is the energy that keeps her addicted.
+
+## 1. Stay Mysterious, Not Missing
+
+You don't have to disappear, just don't be predictable.
+Routine kills attraction. Curiosity feeds it.
+
+Don't text her the same time every day. Don't tell her everything you're doing. Let her feel like she's discovering new sides of you each time you talk.
+Because mystery doesn't mean silence, it means depth.
+
+When she feels there's more to you than what she's seen, she'll keep coming back for more.
+
+## 2. Keep Your Frame Strong
+
+The moment she becomes your whole world, she'll start testing it.
+That's just how it is.
+Women test what they respect, not to break you, but to see if you can handle her world.
+
+Stay grounded. Don't react to every emotion she throws.
+If she's moody, stay calm. If she pulls away, let her.
+Your frame is what tells her, "This man can lead."
+And when you master that, she'll follow naturally.
+
+## 3. Make Her Feel, Not Just Think
+
+Logic doesn't keep her hooked, emotion does.
+It's the small things: the way you say her name, the way you laugh, the way you stay unbothered while she's losing it.
+She won't remember what you said. She'll remember how she felt when she was with you.
+
+That's why presence > paragraphs.
+Be in the moment when you talk. Let her feel your calm confidence. That's what builds addiction.
+
+## 4. Never Stop Evolving
+
+You know what's more attractive than abs?
+Progress.
+
+Every time she sees you leveling up, mentally, financially, spiritually, she feels like she's with a man who doesn't stagnate.
+The spark doesn't die because you keep reinventing yourself.
+
+She fell for your vibe; keep feeding it by growing.
+When she sees you improving without her asking, she'll chase to stay in your orbit.
+
+## 5. BROOOO... Let Her Chase You, Even When She Has You
+
+When a woman feels she has to earn your time, she values it.
+Don't make her your entertainment 24/7.
+Make her earn access to your world.
+
+Give her just enough presence to feel seen, then pull back to your purpose.
+That contrast, your warmth and your distance, that's what makes her crave you.
+
+## Final Word
+
+So look bro, keeping her hooked isn't about tricks or games. It's about staying the man she fell for while becoming an even better version of yourself.
+
+Stay mysterious. Stay strong. Stay evolving.
+That's how you keep her addicted without losing yourself in the process.
+
+If you want the full breakdown on how to balance all this, from texting to dating to keeping the spark alive, check out the Playboy's Playbook where I guide you through everything step by step.
+
+**[Get The Playboy's Playbook Now - Click Here →](https://hustlerajay.gumroad.com/l/iijvra?_gl=1*acvk8e*_ga*ODg2ODE0MTQ5LjE3NTYwOTU3NTg.*_ga_6LJN6D94N6*czE3NjA5NjQ1MTYkbzI0JGcwJHQxNzYwOTY0NTE2JGo2MCRsMCRoMA..)**
+    `
+  },
   "building-mystery": {
     title: "Creating Mystery: Why Being Too Available Kills Attraction",
     date: "March 10, 2024",
