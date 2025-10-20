@@ -5,6 +5,7 @@ import { ArrowLeft } from "lucide-react";
 import textingGameImage from "@/assets/texting-game.jpg";
 import keepingHerHookedImage from "@/assets/keeping-her-hooked.jpg";
 import approachHerImage from "@/assets/approach-her.jpg";
+import attractHerVibeImage from "@/assets/attract-her-vibe.jpg";
 
 interface BlogPost {
   id: string;

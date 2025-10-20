@@ -4,6 +4,7 @@ import { ArrowLeft } from "lucide-react";
 import textingGameImage from "@/assets/texting-game.jpg";
 import keepingHerHookedImage from "@/assets/keeping-her-hooked.jpg";
 import approachHerImage from "@/assets/approach-her.jpg";
+import attractHerVibeImage from "@/assets/attract-her-vibe.jpg";
 
 const blogContent: Record<string, { title: string; date: string; content: string; image: string }> = {
   "texting-game-blueprint": {
@@ -257,6 +258,99 @@ So next time you see her, remember: confidence isn't about having all the answer
 That's the energy that separates you from every other guy in the room. That's what makes her remember you long after you're gone.
 
 If you want the full playbook on approaching, texting, calling, and making her your girlfriend everything I've learned and tested, check out the Playboy's Playbook. Over 500+ guys have been assisted bro.
+
+**[Get The Playboy's Playbook Now - Click Here →](https://hustlerajay.gumroad.com/l/iijvra?_gl=1*acvk8e*_ga*ODg2ODE0MTQ5LjE3NTYwOTU3NTg.*_ga_6LJN6D94N6*czE3NjA5NjQ1MTYkbzI0JGcwJHQxNzYwOTY0NTE2JGo2MCRsMCRoMA..)**
+    `
+  },
+  "attract-her-vibe": {
+    title: "HOW TO ATTRACT HER WITH YOUR VIBE",
+    date: "October 20, 2025",
+    image: attractHerVibeImage,
+    content: `
+# HOW TO ATTRACT HER WITH YOUR VIBE
+## (From The Playboy's Playbook Mindset)
+
+Let's keep it 100
+If you don't find your own life interesting, why should she?
+
+You can't attract her by pretending to be someone.
+You attract her by becoming someone worth being around.
+Because real attraction isn't built on looks or money it's built on aura.
+
+And aura comes from lifestyle.
+From the way you move, talk, grind, and carry your peace like it's gold.
+
+## 1. Attraction Starts With Self-Respect
+
+A man who respects his time, his goals, and his peace radiates something different.
+You can see it in his eyes. You can hear it in his tone.
+
+He doesn't text all day because he's building something.
+He's not waiting on her to validate him; he's already validating himself through purpose.
+
+When a man's focused on his path, it pulls people in.
+Women can feel when your energy comes from direction, not desperation.
+
+That's real magnetism.
+
+## 2. Build a Life You Actually Enjoy
+
+Bro, attraction isn't a performance it's a reflection.
+
+If you wake up every day with no excitement, no hobby, no mission you'll project that boredom in every convo.
+But when you love your life, when you wake up with goals, momentum, and peace she'll feel that vibe through every text, every look, every silence.
+
+You become the man who doesn't need her to feel alive and that's exactly what makes her want you.
+
+## 3. Have Hobbies That Feed Your Aura
+
+This is where most guys go wrong they make her the hobby.
+Don't.
+
+Have your own world.
+For me, that means basketball for flow, business for purpose, and music or writing for peace.
+I run my pages, hit the gym, work on my projects, and still make time to live.
+
+That balance grind + expression that's where the aura comes from.
+
+When you've got something that excites you, you automatically become more attractive, because your energy becomes contagious.
+
+She'll feel it even before you talk.
+
+## 4. Be a Man in Motion
+
+Women love movement.
+Not chaos momentum.
+
+If she sees you evolving new skills, sharper mindset, cleaner look she knows you're not the same guy every few months.
+And that's powerful, because growth makes you unpredictable in the best way.
+
+You're not chasing trends, you're setting your own rhythm.
+
+That's the kind of energy that keeps her hooked the type that says,
+
+"I'm building something with or without you."
+
+## 5. Energy Speaks Louder Than Words
+
+You can't fake energy.
+You can't copy it from a quote or a course.
+
+It's built through silence, discipline, and doing things that make your soul proud.
+That's why I always say put your purpose first, not her.
+Because when you live for your mission, your glow speaks for you.
+
+## Final Word
+
+So next time you're wondering how to attract her, stop looking at your wardrobe or your bank account. Look at your lifestyle.
+
+Are you living with purpose?
+Are you excited about your own days?
+Are you moving with direction?
+
+That's what she'll feel. That's what she'll chase.
+
+If you want the full breakdown on attracting, approaching, texting, and keeping her everything that's worked for me check out the Playboy's Playbook. Over 500+ guys have been assisted.
 
 **[Get The Playboy's Playbook Now - Click Here →](https://hustlerajay.gumroad.com/l/iijvra?_gl=1*acvk8e*_ga*ODg2ODE0MTQ5LjE3NTYwOTU3NTg.*_ga_6LJN6D94N6*czE3NjA5NjQ1MTYkbzI0JGcwJHQxNzYwOTY0NTE2JGo2MCRsMCRoMA..)**
     `
