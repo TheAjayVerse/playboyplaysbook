@@ -2,6 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 import textingGameImage from "@/assets/texting-game.jpg";
+import keepingHerHookedImage from "@/assets/keeping-her-hooked.jpg";
 
 const blogContent: Record<string, { title: string; date: string; content: string; image: string }> = {
   "texting-game-blueprint": {
@@ -78,7 +79,7 @@ That's how you text her and keep her hooked. If y'all interested, check out my p
   "keeping-her-hooked": {
     title: "HOW TO KEEP HER HOOKED (WITHOUT LOSING YOURSELF)",
     date: "October 20, 2025",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=400&fit=crop",
+    image: keepingHerHookedImage,
     content: `
 # HOW TO KEEP HER HOOKED (WITHOUT LOSING YOURSELF)
 ## (From The Playboy's Playbook Mindset)
