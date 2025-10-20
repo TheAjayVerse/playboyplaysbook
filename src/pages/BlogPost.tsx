@@ -72,7 +72,7 @@ So next time you open your phone, remember bro, texting isn't about filling time
 
 That's how you text her and keep her hooked. If y'all interested, check out my playboys playbook where I'll also tell you how to message then call her then video call and plan a date. I guide you through everything that worked for me, everything is handed to you, how to text her exactly what to say and approach her where over 500+ guys have been assisted.
 
-**[Get The Playboy's Playbook Now →](https://gumroad.com)**
+**[Get The Playboy's Playbook Now →](https://hustlerajay.gumroad.com/l/iijvra?_gl=1*acvk8e*_ga*ODg2ODE0MTQ5LjE3NTYwOTU3NTg.*_ga_6LJN6D94N6*czE3NjA5NjQ1MTYkbzI0JGcwJHQxNzYwOTY0NTE2JGo2MCRsMCRoMA..)**
     `
   },
   "building-mystery": {
@@ -246,6 +246,16 @@ const BlogPost = () => {
             } else if (paragraph.startsWith('## ')) {
               return <h2 key={index} className="text-2xl font-heading font-semibold mt-8 mb-4 gradient-text">{paragraph.substring(3)}</h2>;
             } else if (paragraph.startsWith('**') && paragraph.endsWith('**')) {
+              const linkMatch = paragraph.match(/\*\*\[(.+?)\]\((.+?)\)\*\*/);
+              if (linkMatch) {
+                return (
+                  <p key={index} className="font-semibold text-foreground mt-4">
+                    <a href={linkMatch[2]} target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">
+                      {linkMatch[1]}
+                    </a>
+                  </p>
+                );
+              }
               return <p key={index} className="font-semibold text-foreground mt-4">{paragraph.substring(2, paragraph.length - 2)}</p>;
             } else if (paragraph.startsWith('- ')) {
               return <li key={index} className="text-muted-foreground ml-6 list-disc">{paragraph.substring(2)}</li>;
