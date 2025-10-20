@@ -52,27 +52,6 @@ const blogPosts: BlogPost[] = [
     image: becomeTheManImage,
     date: "October 20, 2025"
   },
-  {
-    id: "building-mystery",
-    title: "Creating Mystery: Why Being Too Available Kills Attraction",
-    excerpt: "Discover why mystery is magnetic and how being too predictable makes you invisible. Learn the balance between interest and intrigue.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
-    date: "March 10, 2024"
-  },
-  {
-    id: "keeping-the-spark",
-    title: "Keeping the Spark Alive in Your Relationship",
-    excerpt: "The relationship doesn't end after you get the girl. Learn how to maintain attraction, avoid becoming a pushover, and keep things exciting.",
-    image: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400&h=300&fit=crop",
-    date: "March 8, 2024"
-  },
-  {
-    id: "escalation-ladder",
-    title: "The Escalation Ladder: Text to Call to Date",
-    excerpt: "Step-by-step guide on moving from texting to phone calls, video calls, and finally meeting in person without making it awkward.",
-    image: "https://images.unsplash.com/photo-1556157382-97eda2f9e2bf?w=400&h=300&fit=crop",
-    date: "March 5, 2024"
-  }
 ];
 
 const Advice = () => {
