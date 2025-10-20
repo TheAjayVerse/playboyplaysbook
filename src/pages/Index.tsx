@@ -2,6 +2,7 @@ import FloatingBubbles from "@/components/FloatingBubbles";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import BlogCTA from "@/components/BlogCTA";
 
 const Index = () => {
   return (
@@ -11,6 +12,7 @@ const Index = () => {
         <HeroSection />
         <AboutSection />
         <TestimonialsSection />
+        <BlogCTA />
       </div>
     </div>
   );
