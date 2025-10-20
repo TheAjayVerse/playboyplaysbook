@@ -72,7 +72,7 @@ So next time you open your phone, remember bro, texting isn't about filling time
 
 That's how you text her and keep her hooked. If y'all interested, check out my playboys playbook where I'll also tell you how to message then call her then video call and plan a date. I guide you through everything that worked for me, everything is handed to you, how to text her exactly what to say and approach her where over 500+ guys have been assisted.
 
-**[Get The Playboy's Playbook Now →](https://hustlerajay.gumroad.com/l/iijvra?_gl=1*acvk8e*_ga*ODg2ODE0MTQ5LjE3NTYwOTU3NTg.*_ga_6LJN6D94N6*czE3NjA5NjQ1MTYkbzI0JGcwJHQxNzYwOTY0NTE2JGo2MCRsMCRoMA..)**
+**[Get The Playboy's Playbook Now - Click Here →](https://hustlerajay.gumroad.com/l/iijvra?_gl=1*acvk8e*_ga*ODg2ODE0MTQ5LjE3NTYwOTU3NTg.*_ga_6LJN6D94N6*czE3NjA5NjQ1MTYkbzI0JGcwJHQxNzYwOTY0NTE2JGo2MCRsMCRoMA..)**
     `
   },
   "building-mystery": {
