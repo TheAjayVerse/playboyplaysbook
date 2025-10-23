@@ -4,7 +4,9 @@ const HeroSection = () => {
   return <section className="min-h-screen flex items-center justify-center px-4 relative">
       <nav className="absolute top-8 right-8 z-20">
         <Link to="/advice">
-          
+          <Button variant="outline" className="text-foreground border-foreground/20 hover:bg-foreground/10">
+            Browse Expert Insights
+          </Button>
         </Link>
       </nav>
       <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
