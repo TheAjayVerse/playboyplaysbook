@@ -18,6 +18,7 @@ export default defineConfig(({ mode }) => ({
   build: {
     // Performance optimizations - using esbuild (default, faster than terser)
     minify: 'esbuild',
+    cssMinify: true,
     rollupOptions: {
       output: {
         manualChunks: {
@@ -25,10 +26,16 @@ export default defineConfig(({ mode }) => ({
           'ui-vendor': ['@radix-ui/react-accordion', '@radix-ui/react-dialog', '@radix-ui/react-slot'],
           'carousel': ['embla-carousel-react', 'embla-carousel-autoplay'],
         },
+        // Optimize asset naming
+        assetFileNames: 'assets/[name]-[hash][extname]',
+        chunkFileNames: 'assets/[name]-[hash].js',
+        entryFileNames: 'assets/[name]-[hash].js',
       },
     },
     // Chunk size optimization
     chunkSizeWarningLimit: 1000,
+    // Target modern browsers for smaller bundles
+    target: 'esnext',
   },
   // Optimize dependencies
   optimizeDeps: {
