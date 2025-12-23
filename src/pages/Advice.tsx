@@ -8,6 +8,7 @@ import keepingHerHookedImage from "@/assets/keeping-her-hooked.jpg";
 import approachHerImage from "@/assets/approach-her.jpg";
 import attractHerVibeImage from "@/assets/attract-her-vibe.jpg";
 import becomeTheManImage from "@/assets/become-the-man.jpg";
+import playboyGemsImage from "@/assets/playboy-gems-main.webp";
 
 interface BlogPost {
   id: string;
@@ -18,6 +19,13 @@ interface BlogPost {
 }
 
 const blogPosts: BlogPost[] = [
+  {
+    id: "hidden-playboy-gems",
+    title: "HIDDEN PLAYBOY GEMS: LEVEL UP YOUR GAME",
+    excerpt: "The best tips that helped me bag and keep women. From scarcity to red flags — this is the real sauce from years of experience.",
+    image: playboyGemsImage,
+    date: "December 23, 2025"
+  },
   {
     id: "texting-game-blueprint",
     title: "HOW TO IMPROVE YOUR TEXT GAME",

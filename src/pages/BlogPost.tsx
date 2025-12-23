@@ -7,8 +7,133 @@ import keepingHerHookedImage from "@/assets/keeping-her-hooked.jpg";
 import approachHerImage from "@/assets/approach-her.jpg";
 import attractHerVibeImage from "@/assets/attract-her-vibe.jpg";
 import becomeTheManImage from "@/assets/become-the-man.jpg";
+import playboyGemsImage from "@/assets/playboy-gems-main.webp";
+import redFlagsImage from "@/assets/red-flags.webp";
 
-const blogContent: Record<string, { title: string; date: string; content: string; image: string; metaDescription: string; keywords: string[] }> = {
+const blogContent: Record<string, { title: string; date: string; content: string; image: string; metaDescription: string; keywords: string[]; inlineImages?: Record<string, string> }> = {
+  "hidden-playboy-gems": {
+    title: "HIDDEN PLAYBOY GEMS: LEVEL UP YOUR GAME",
+    date: "December 23, 2025",
+    image: playboyGemsImage,
+    metaDescription: "The best tips that helped me bag and keep women. From scarcity to red flags — real sauce from years of experience around the hottest women.",
+    keywords: ["dating tips", "playboy mindset", "attract women", "red flags dating", "dating advice for men", "relationship game", "keep her hooked", "confidence with women"],
+    inlineImages: {
+      "RED_FLAGS_IMAGE": redFlagsImage
+    },
+    content: `
+# HIDDEN PLAYBOY GEMS: LEVEL UP YOUR GAME
+
+Yo, I see you out here tryna level your edge with women. Okay, before you think I'm some know-it-all, I promise fam, I ain't.
+
+I grew up in clubs as a kid, spent my whole life around the hottest — and craziest — women. Even right now, I work as a creative director, moving with models and women 24/7. I've learned a lot watching, testing, and learning what works.
+
+So here's a breakdown of the best tips that helped me bag and keep women:
+
+## 1. Scarcity = Value
+
+Don't always be available. Don't reply instantly every time. Show you have a life. Your time = water in the desert. Scarcity creates value.
+
+## 2. Power of Absence
+
+People remember the sting more than the sweet. Let her wonder, let her chase a little.
+
+## 3. Negatives Hit Harder Than Positives
+
+Subtle challenges, small resistance, light teasing — these make her brain work and invest in you.
+
+## 4. The Proximity Principle
+
+Being around matters, but don't force it. Even 5–10 minutes a day can keep you in her orbit. Pull back if the vibe isn't there — it makes her chase.
+
+## 5. Mystery Over Exposure
+
+Don't overshare. Curiosity fuels attraction. Let her imagination do some work.
+
+## 6. Effort > Genetics
+
+Women notice what you do for yourself. Gym, style, ambition, confidence — they care more about energy and effort than perfect looks.
+
+## 7. Long-Term Attraction
+
+Keep evolving. Level up daily. Every time she sees a new version of you, the spark stays alive.
+
+## 8. Masculinity = Gangster Energy
+
+Women want confidence, control, and emotional resilience. Don't overreact. Control yourself first, then lead naturally.
+
+## 9. Important Rules
+
+Master your frame. No trauma dumping. Past = past.
+
+Be exclusive only if it works for you. Let her compete a little — it's attraction fuel.
+
+It's also how you handle yourself fam. When you see her for the first time, talk slow, drop your voice, and hold your ground. Don't look down — hold that eye contact, especially when you feel that vibe. Then, give a subtle signal — like a little finger motion, like I'm coming. Watch her fix herself up. That's attraction before you even speak.
+
+## If She Calls You a Playboy
+
+(For my day-one students who do what I say) — don't deny it like a boy. Say: "I catch a vibe now and then, but nothing serious." You're not lying, but you're not an open book either. Keep her guessing. Mystery is power.
+
+## Mastery of Words
+
+Don't recycle "you're so beautiful." Everyone says that. Paint pictures with your words. Example: "A rose melting over a marshmallow — that's how soft your lips look." She'll laugh, but you're different — and she might even blush. That's poetry, fam.
+
+Or instead of saying "sexy," say something that only fits HER. If there are 10 girls in the room, your compliment should only apply to her.
+
+## Ask How She Feels
+
+Instead of the boring "what do you think" questions, ask: "How does that make you feel?" Women live in emotions. Make her express them.
+
+G, this is just the super short version. If you want the WHOLE SAUCE and cake, check out my full Playboys Playbook ↓
+
+**[Click here to get The Playboys Playbook →](https://hustlerajay.gumroad.com/l/iijvra?_gl=1*11iftw1*_ga*ODg2ODE0MTQ5LjE3NTYwOTU3NTg.*_ga_6LJN6D94N6*czE3NjEyMzg1NjAkbzI5JGcwJHQxNzYxMjM4NTYwJGo2MCRsMCRoMA..)**
+
+[IMAGE:RED_FLAGS_IMAGE]
+
+## Always Watch Out for Red Flags
+
+Before I wrap this up, I gotta talk about something most guys ignore until it's too late: red flags. Not the dramatic ones. The subtle ones that drain your energy slowly.
+
+## Red Flag #1: Too Many Male Friends
+
+If she's got a whole crew of single guys around her, don't be naive. Most of them aren't "just friends." They're waiting for their turn. When things go wrong, if she runs to them instead of communicating with you, that's a problem.
+
+## Red Flag #2: 304 Friends
+
+You know the type. Constant clubbing, festivals, drinking every weekend. Even "girl nights" that always turn wild. Birds of a feather flock together. If all her girls are reckless, single, and chasing attention, chances are she's cut from the same cloth.
+
+## Red Flag #3: Addicted to Validation
+
+Posting every outfit, every hairstyle, every moment. Living for likes, not real connection. There's a difference between using social media for business and using it for approval. Building a brand or hustling? Respect. Posting for attention and validation? Red flag.
+
+## Red Flag #4: Can't Get Off Her Phone
+
+If she's scrolling while she's with you, she's telling you everything you need to know. Respect is non-negotiable. If she can't put the phone down for you, don't compete with notifications.
+
+## Red Flag #5: "No Time" Excuses
+
+Everyone is busy. People make time for what they care about. Interest is shown through investment, not words.
+
+## Red Flag #6: History of Cheating (and Justifying It)
+
+If she cheated before and laughs about it, blames her ex, or avoids accountability — she'll do it again. A woman who can't own her past is dangerous for your future.
+
+## Bottom Line
+
+If you ignore red flags early, you pay for it later. Protect your energy before you invest it. Even if she looks loyal. Even if the vibe feels right.
+
+Remember — the ball is in your court. You don't have to listen. I'm just saying… take this into consideration.
+
+## Final Word
+
+And listen, G — this article is just crumbs. This playbook works only if you APPLY it. Don't skim. Run the moves. Read it again. Build the energy. You'll stop texting like 99% of guys and start moving differently.
+
+If you guys want the full sauce, this is just a snippet. Get the Playboys Playbook Guide and move like a real man — especially in this new age, things changed. Understand the game before you get hurt.
+
+**[Get The Playboy's Playbook Now - Click Here →](https://hustlerajay.gumroad.com/l/iijvra?_gl=1*11iftw1*_ga*ODg2ODE0MTQ5LjE3NTYwOTU3NTg.*_ga_6LJN6D94N6*czE3NjEyMzg1NjAkbzI5JGcwJHQxNzYxMjM4NTYwJGo2MCRsMCRoMA..)**
+
+Subscribe below to get more stories, level up content, and more info on self-improvement. Stay tuned, fam.
+    `
+  },
   "texting-game-blueprint": {
     title: "HOW TO IMPROVE YOUR TEXT GAME",
     date: "October 20, 2025",
@@ -559,6 +684,23 @@ const BlogPost = () => {
 
         <div className="prose prose-invert prose-lg max-w-none">
           {post.content.split('\n').map((paragraph, index) => {
+            // Handle inline images
+            const imageMatch = paragraph.match(/\[IMAGE:(.+?)\]/);
+            if (imageMatch && post.inlineImages) {
+              const imageKey = imageMatch[1];
+              const imageSrc = post.inlineImages[imageKey];
+              if (imageSrc) {
+                return (
+                  <img 
+                    key={index}
+                    src={imageSrc} 
+                    alt="Article illustration"
+                    className="w-full max-w-lg mx-auto rounded-lg my-8"
+                    loading="lazy"
+                  />
+                );
+              }
+            }
             if (paragraph.startsWith('# ')) {
               return <h1 key={index} className="text-3xl font-heading font-bold mt-12 mb-6 glow-text">{paragraph.substring(2)}</h1>;
             } else if (paragraph.startsWith('## ')) {
