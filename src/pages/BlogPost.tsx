@@ -134,8 +134,6 @@ And listen, G — this article is just crumbs. This playbook works only if you A
 There is SO MUCH more inside the Playboys Playbook. Everything you need to master the game — from approach to keeping her hooked long-term.
 
 [CTA_PLAYBOOK]
-
-[MANCAVE_SIGNUP]
     `
   },
   "texting-game-blueprint": {
@@ -710,32 +708,6 @@ const BlogPost = () => {
                   >
                     <Button size="lg" className="glow-button bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-lg px-8 py-6 font-bold">
                       COP NOW 🔥
-                    </Button>
-                  </a>
-                </div>
-              );
-            }
-            // Handle Mancave Signup section
-            if (paragraph.includes('[MANCAVE_SIGNUP]')) {
-              return (
-                <div key={index} className="my-12 p-8 rounded-2xl bg-gradient-to-br from-secondary/20 to-primary/10 border border-secondary/30 text-center">
-                  <h3 className="text-2xl md:text-3xl font-heading font-bold mb-4 glow-text">
-                    JOIN THE MANCAVE 🔥
-                  </h3>
-                  <p className="text-muted-foreground mb-6 text-lg">
-                    Get exclusive stories, level-up content, and more info on self-improvement delivered straight to your inbox.
-                  </p>
-                  <div id="mc_embed_shell" className="my-4">
-                    <div id="mc_embed_signup"></div>
-                  </div>
-                  <a 
-                    href="http://eepurl.com/j4LiP2"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block"
-                  >
-                    <Button size="lg" className="glow-button bg-gradient-to-r from-secondary to-primary hover:opacity-90 text-lg px-8 py-6 font-bold">
-                      JOIN MAN CAVE 💪
                     </Button>
                   </a>
                 </div>
