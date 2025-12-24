@@ -127,9 +127,13 @@ Remember — the ball is in your court. You don't have to listen. I'm just sayin
 
 And listen, G — this article is just crumbs. This playbook works only if you APPLY it. Don't skim. Run the moves. Read it again. Build the energy. You'll stop texting like 99% of guys and start moving differently.
 
-If you guys want the full sauce, this is just a snippet. Get the Playboys Playbook Guide and move like a real man — especially in this new age, things changed. Understand the game before you get hurt.
+---
 
-**[Get The Playboy's Playbook Now - Click Here →](https://hustlerajay.gumroad.com/l/iijvra?_gl=1*11iftw1*_ga*ODg2ODE0MTQ5LjE3NTYwOTU3NTg.*_ga_6LJN6D94N6*czE3NjEyMzg1NjAkbzI5JGcwJHQxNzYxMjM4NTYwJGo2MCRsMCRoMA..)**
+## 🔥 G, THIS IS JUST THE TIP OF THE ICEBERG
+
+There is SO MUCH more inside the Playboys Playbook. Everything you need to master the game — from approach to keeping her hooked long-term.
+
+[CTA_PLAYBOOK]
 
 Subscribe below to get more stories, level up content, and more info on self-improvement. Stay tuned, fam.
     `
@@ -684,6 +688,33 @@ const BlogPost = () => {
 
         <div className="prose prose-invert prose-lg max-w-none">
           {post.content.split('\n').map((paragraph, index) => {
+            // Handle CTA Playbook section
+            if (paragraph.includes('[CTA_PLAYBOOK]')) {
+              return (
+                <div key={index} className="my-12 p-8 rounded-2xl bg-gradient-to-br from-primary/20 to-secondary/20 border border-primary/30 text-center">
+                  <h3 className="text-2xl md:text-3xl font-heading font-bold mb-4 glow-text">
+                    GET THE PLAYBOYS PLAYBOOK
+                  </h3>
+                  <p className="text-muted-foreground mb-6 text-lg">
+                    Move like a real man — especially in this new age. Understand the game before you get hurt.
+                  </p>
+                  <div className="flex items-center justify-center gap-3 mb-6">
+                    <span className="text-2xl text-muted-foreground line-through">$97</span>
+                    <span className="text-4xl font-bold text-primary">$47</span>
+                  </div>
+                  <a 
+                    href="https://hustlerajay.gumroad.com/l/iijvra?_gl=1*11iftw1*_ga*ODg2ODE0MTQ5LjE3NTYwOTU3NTg.*_ga_6LJN6D94N6*czE3NjEyMzg1NjAkbzI5JGcwJHQxNzYxMjM4NTYwJGo2MCRsMCRoMA.."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block"
+                  >
+                    <Button size="lg" className="glow-button bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-lg px-8 py-6 font-bold">
+                      COP NOW 🔥
+                    </Button>
+                  </a>
+                </div>
+              );
+            }
             // Handle inline images
             const imageMatch = paragraph.match(/\[IMAGE:(.+?)\]/);
             if (imageMatch && post.inlineImages) {
