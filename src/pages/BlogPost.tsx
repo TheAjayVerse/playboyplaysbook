@@ -10,8 +10,15 @@ import becomeTheManImage from "@/assets/become-the-man.jpg";
 import playboyGemsImage from "@/assets/playboy-gems-main.webp";
 import redFlagsImage from "@/assets/red-flags.webp";
 import makeWomenObsessedImage from "@/assets/make-women-obsessed.png";
-
-const blogContent: Record<string, { title: string; date: string; content: string; image: string; metaDescription: string; keywords: string[]; inlineImages?: Record<string, string> }> = {
+const blogContent: Record<string, {
+  title: string;
+  date: string;
+  content: string;
+  image: string;
+  metaDescription: string;
+  keywords: string[];
+  inlineImages?: Record<string, string>;
+}> = {
   "make-women-obsessed": {
     title: "HOW TO MAKE 99% OF WOMEN OBSESSED",
     date: "January 25, 2026",
@@ -198,6 +205,8 @@ Instead of the boring "what do you think" questions, ask: "How does that make yo
 G, this is just the super short version. If you want the WHOLE SAUCE and cake, check out my full Playboys Playbook ↓
 
 **[Click here to get The Playboys Playbook →](https://hustlerajay.gumroad.com/l/iijvra?_gl=1*11iftw1*_ga*ODg2ODE0MTQ5LjE3NTYwOTU3NTg.*_ga_6LJN6D94N6*czE3NjEyMzg1NjAkbzI5JGcwJHQxNzYxMjM4NTYwJGo2MCRsMCRoMA..)**
+
+[IMAGE:RED_FLAGS_IMAGE]
 
 ## Always Watch Out for Red Flags
 
@@ -698,28 +707,26 @@ Run it.
 
 **[Get The Playboy's Playbook Now - Click Here →](https://hustlerajay.gumroad.com/l/iijvra?_gl=1*acvk8e*_ga*ODg2ODE0MTQ5LjE3NTYwOTU3NTg.*_ga_6LJN6D94N6*czE3NjA5NjQ1MTYkbzI0JGcwJHQxNzYwOTY0NTE2JGo2MCRsMCRoMA..)**
     `
-  },
+  }
 };
-
 const BlogPost = () => {
-  const { id } = useParams<{ id: string }>();
+  const {
+    id
+  } = useParams<{
+    id: string;
+  }>();
   const post = id ? blogContent[id] : null;
-
   if (!post) {
-    return (
-      <div className="min-h-screen bg-background flex items-center justify-center px-4">
+    return <div className="min-h-screen bg-background flex items-center justify-center px-4">
         <div className="text-center">
           <h1 className="text-4xl font-heading font-bold mb-4">Post Not Found</h1>
           <Link to="/advice">
             <Button>Back to Advice</Button>
           </Link>
         </div>
-      </div>
-    );
+      </div>;
   }
-
-  return (
-    <div className="min-h-screen bg-background py-12 px-4">
+  return <div className="min-h-screen bg-background py-12 px-4">
       <Helmet>
         <title>{post.title} | Playboy's Playbook Dating Advice</title>
         <meta name="description" content={post.metaDescription} />
@@ -746,30 +753,30 @@ const BlogPost = () => {
       {/* JSON-LD Structured Data */}
       <script type="application/ld+json">
         {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": post.title,
-          "image": post.image,
-          "datePublished": new Date(post.date).toISOString(),
-          "dateModified": new Date(post.date).toISOString(),
-          "author": {
-            "@type": "Person",
-            "name": "Playboy's Playbook"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Playboy's Playbook",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://ajayshustle.com/logo.png"
-            }
-          },
-          "description": post.metaDescription,
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": `https://ajayshustle.com/advice/${id}`
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": post.title,
+        "image": post.image,
+        "datePublished": new Date(post.date).toISOString(),
+        "dateModified": new Date(post.date).toISOString(),
+        "author": {
+          "@type": "Person",
+          "name": "Playboy's Playbook"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Playboy's Playbook",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://ajayshustle.com/logo.png"
           }
-        })}
+        },
+        "description": post.metaDescription,
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": `https://ajayshustle.com/advice/${id}`
+        }
+      })}
       </script>
 
       <article className="max-w-3xl mx-auto">
@@ -780,12 +787,7 @@ const BlogPost = () => {
           </Button>
         </Link>
 
-        <img 
-          src={post.image} 
-          alt={`${post.title} - Dating advice and tips from Playboy's Playbook`}
-          className="w-full h-64 md:h-96 object-cover rounded-lg mb-8"
-          loading="eager"
-        />
+        <img src={post.image} alt={`${post.title} - Dating advice and tips from Playboy's Playbook`} className="w-full h-64 md:h-96 object-cover rounded-lg mb-8" loading="eager" />
 
         <div className="mb-8">
           <p className="text-muted-foreground mb-2">{post.date}</p>
@@ -796,10 +798,9 @@ const BlogPost = () => {
 
         <div className="prose prose-invert prose-lg max-w-none">
           {post.content.split('\n').map((paragraph, index) => {
-            // Handle CTA Playbook section
-            if (paragraph.includes('[CTA_PLAYBOOK]')) {
-              return (
-                <div key={index} className="my-12 p-8 rounded-2xl bg-gradient-to-br from-primary/20 to-secondary/20 border border-primary/30 text-center">
+          // Handle CTA Playbook section
+          if (paragraph.includes('[CTA_PLAYBOOK]')) {
+            return <div key={index} className="my-12 p-8 rounded-2xl bg-gradient-to-br from-primary/20 to-secondary/20 border border-primary/30 text-center">
                   <h3 className="text-2xl md:text-3xl font-heading font-bold mb-4 glow-text">
                     GET THE PLAYBOYS PLAYBOOK
                   </h3>
@@ -810,59 +811,43 @@ const BlogPost = () => {
                     <span className="text-2xl text-muted-foreground line-through">$97</span>
                     <span className="text-4xl font-bold text-primary">$47</span>
                   </div>
-                  <a 
-                    href="https://hustlerajay.gumroad.com/l/iijvra?_gl=1*11iftw1*_ga*ODg2ODE0MTQ5LjE3NTYwOTU3NTg.*_ga_6LJN6D94N6*czE3NjEyMzg1NjAkbzI5JGcwJHQxNzYxMjM4NTYwJGo2MCRsMCRoMA.."
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block"
-                  >
+                  <a href="https://hustlerajay.gumroad.com/l/iijvra?_gl=1*11iftw1*_ga*ODg2ODE0MTQ5LjE3NTYwOTU3NTg.*_ga_6LJN6D94N6*czE3NjEyMzg1NjAkbzI5JGcwJHQxNzYxMjM4NTYwJGo2MCRsMCRoMA.." target="_blank" rel="noopener noreferrer" className="inline-block">
                     <Button size="lg" className="glow-button bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-lg px-8 py-6 font-bold">
                       COP NOW 🔥
                     </Button>
                   </a>
-                </div>
-              );
+                </div>;
+          }
+          // Handle inline images
+          const imageMatch = paragraph.match(/\[IMAGE:(.+?)\]/);
+          if (imageMatch && post.inlineImages) {
+            const imageKey = imageMatch[1];
+            const imageSrc = post.inlineImages[imageKey];
+            if (imageSrc) {
+              return;
             }
-            // Handle inline images
-            const imageMatch = paragraph.match(/\[IMAGE:(.+?)\]/);
-            if (imageMatch && post.inlineImages) {
-              const imageKey = imageMatch[1];
-              const imageSrc = post.inlineImages[imageKey];
-              if (imageSrc) {
-                return (
-                  <img 
-                    key={index}
-                    src={imageSrc} 
-                    alt="Article illustration"
-                    className="w-full max-w-lg mx-auto rounded-lg my-8"
-                    loading="lazy"
-                  />
-                );
-              }
-            }
-            if (paragraph.startsWith('# ')) {
-              return <h1 key={index} className="text-3xl font-heading font-bold mt-12 mb-6 glow-text">{paragraph.substring(2)}</h1>;
-            } else if (paragraph.startsWith('## ')) {
-              return <h2 key={index} className="text-2xl font-heading font-semibold mt-8 mb-4 gradient-text">{paragraph.substring(3)}</h2>;
-            } else if (paragraph.startsWith('**') && paragraph.endsWith('**')) {
-              const linkMatch = paragraph.match(/\*\*\[(.+?)\]\((.+?)\)\*\*/);
-              if (linkMatch) {
-                return (
-                  <p key={index} className="font-semibold text-foreground mt-4">
+          }
+          if (paragraph.startsWith('# ')) {
+            return <h1 key={index} className="text-3xl font-heading font-bold mt-12 mb-6 glow-text">{paragraph.substring(2)}</h1>;
+          } else if (paragraph.startsWith('## ')) {
+            return <h2 key={index} className="text-2xl font-heading font-semibold mt-8 mb-4 gradient-text">{paragraph.substring(3)}</h2>;
+          } else if (paragraph.startsWith('**') && paragraph.endsWith('**')) {
+            const linkMatch = paragraph.match(/\*\*\[(.+?)\]\((.+?)\)\*\*/);
+            if (linkMatch) {
+              return <p key={index} className="font-semibold text-foreground mt-4">
                     <a href={linkMatch[2]} target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">
                       {linkMatch[1]}
                     </a>
-                  </p>
-                );
-              }
-              return <p key={index} className="font-semibold text-foreground mt-4">{paragraph.substring(2, paragraph.length - 2)}</p>;
-            } else if (paragraph.startsWith('- ')) {
-              return <li key={index} className="text-muted-foreground ml-6 list-disc">{paragraph.substring(2)}</li>;
-            } else if (paragraph.trim()) {
-              return <p key={index} className="text-muted-foreground leading-relaxed mb-4">{paragraph}</p>;
+                  </p>;
             }
-            return null;
-          })}
+            return <p key={index} className="font-semibold text-foreground mt-4">{paragraph.substring(2, paragraph.length - 2)}</p>;
+          } else if (paragraph.startsWith('- ')) {
+            return <li key={index} className="text-muted-foreground ml-6 list-disc">{paragraph.substring(2)}</li>;
+          } else if (paragraph.trim()) {
+            return <p key={index} className="text-muted-foreground leading-relaxed mb-4">{paragraph}</p>;
+          }
+          return null;
+        })}
         </div>
 
         <div className="mt-12 pt-8 border-t border-border">
@@ -873,8 +858,6 @@ const BlogPost = () => {
           </Link>
         </div>
       </article>
-    </div>
-  );
+    </div>;
 };
-
 export default BlogPost;
