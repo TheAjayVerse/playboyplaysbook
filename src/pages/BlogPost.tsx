@@ -321,7 +321,7 @@ So next time you open your phone, remember bro, texting isn't about filling time
 
 That's how you text her and keep her hooked. If y'all interested, check out my playboys playbook where I'll also tell you how to message then call her then video call and plan a date. I guide you through everything that worked for me, everything is handed to you, how to text her exactly what to say and approach her where over 500+ guys have been assisted.
 
-**[Get The Playboy's Playbook Now - Click Here →](https://hustlerajay.gumroad.com/l/iijvra?_gl=1*acvk8e*_ga*ODg2ODE0MTQ5LjE3NTYwOTU3NTg.*_ga_6LJN6D94N6*czE3NjA5NjQ1MTYkbzI0JGcwJHQxNzYwOTY0NTE2JGo2MCRsMCRoMA..)**
+**[Get The Playboy's Playbook Now - Click Here →](https://hustlerajay.gumroad.com/l/iijvra)**
     `
   },
   "keeping-her-hooked": {
@@ -405,7 +405,7 @@ That's how you keep her addicted without losing yourself in the process.
 
 If you want the full breakdown on how to balance all this, from texting to dating to keeping the spark alive, check out the Playboy's Playbook where I guide you through everything step by step.
 
-**[Get The Playboy's Playbook Now - Click Here →](https://hustlerajay.gumroad.com/l/iijvra?_gl=1*acvk8e*_ga*ODg2ODE0MTQ5LjE3NTYwOTU3NTg.*_ga_6LJN6D94N6*czE3NjA5NjQ1MTYkbzI0JGcwJHQxNzYwOTY0NTE2JGo2MCRsMCRoMA..)**
+**[Get The Playboy's Playbook Now - Click Here →](https://hustlerajay.gumroad.com/l/iijvra)**
     `
   },
   "approach-her": {
@@ -509,7 +509,7 @@ That's the energy that separates you from every other guy in the room. That's wh
 
 If you want the full playbook on approaching, texting, calling, and making her your girlfriend everything I've learned and tested, check out the Playboy's Playbook. Over 500+ guys have been assisted bro.
 
-**[Get The Playboy's Playbook Now - Click Here →](https://hustlerajay.gumroad.com/l/iijvra?_gl=1*acvk8e*_ga*ODg2ODE0MTQ5LjE3NTYwOTU3NTg.*_ga_6LJN6D94N6*czE3NjA5NjQ1MTYkbzI0JGcwJHQxNzYwOTY0NTE2JGo2MCRsMCRoMA..)**
+**[Get The Playboy's Playbook Now - Click Here →](https://hustlerajay.gumroad.com/l/iijvra)**
     `
   },
   "attract-her-vibe": {
@@ -604,7 +604,7 @@ That's what she'll feel. That's what she'll chase.
 
 If you want the full breakdown on attracting, approaching, texting, and keeping her everything that's worked for me check out the Playboy's Playbook. Over 500+ guys have been assisted.
 
-**[Get The Playboy's Playbook Now - Click Here →](https://hustlerajay.gumroad.com/l/iijvra?_gl=1*acvk8e*_ga*ODg2ODE0MTQ5LjE3NTYwOTU3NTg.*_ga_6LJN6D94N6*czE3NjA5NjQ1MTYkbzI0JGcwJHQxNzYwOTY0NTE2JGo2MCRsMCRoMA..)**
+**[Get The Playboy's Playbook Now - Click Here →](https://hustlerajay.gumroad.com/l/iijvra)**
     `
   },
   "become-the-man": {
@@ -701,7 +701,7 @@ how to approach, text, attract, and keep her hooked while building the lifestyle
 This is your blueprint.
 Run it.
 
-**[Get The Playboy's Playbook Now - Click Here →](https://hustlerajay.gumroad.com/l/iijvra?_gl=1*acvk8e*_ga*ODg2ODE0MTQ5LjE3NTYwOTU3NTg.*_ga_6LJN6D94N6*czE3NjA5NjQ1MTYkbzI0JGcwJHQxNzYwOTY0NTE2JGo2MCRsMCRoMA..)**
+**[Get The Playboy's Playbook Now - Click Here →](https://hustlerajay.gumroad.com/l/iijvra)**
     `
   }
 };
@@ -807,7 +807,7 @@ const BlogPost = () => {
                     <span className="text-2xl text-muted-foreground line-through">$97</span>
                     <span className="text-4xl font-bold text-primary">$47</span>
                   </div>
-                  <a href="https://hustlerajay.gumroad.com/l/iijvra?_gl=1*11iftw1*_ga*ODg2ODE0MTQ5LjE3NTYwOTU3NTg.*_ga_6LJN6D94N6*czE3NjEyMzg1NjAkbzI5JGcwJHQxNzYxMjM4NTYwJGo2MCRsMCRoMA.." target="_blank" rel="noopener noreferrer" className="inline-block">
+                  <a href="https://hustlerajay.gumroad.com/l/iijvra" target="_blank" rel="noopener noreferrer" className="inline-block">
                     <Button size="lg" className="glow-button bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-lg px-8 py-6 font-bold">
                       COP NOW 🔥
                     </Button>
