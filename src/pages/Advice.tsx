@@ -9,6 +9,7 @@ import approachHerImage from "@/assets/approach-her.jpg";
 import attractHerVibeImage from "@/assets/attract-her-vibe.jpg";
 import becomeTheManImage from "@/assets/become-the-man.jpg";
 import playboyGemsImage from "@/assets/playboy-gems-main.webp";
+import makeWomenObsessedImage from "@/assets/make-women-obsessed.png";
 
 interface BlogPost {
   id: string;
@@ -19,6 +20,13 @@ interface BlogPost {
 }
 
 const blogPosts: BlogPost[] = [
+  {
+    id: "make-women-obsessed",
+    title: "HOW TO MAKE 99% OF WOMEN OBSESSED",
+    excerpt: "The real sauce from years around the hottest women. From scarcity to red flags — I break down everything that helped me bag and keep women.",
+    image: makeWomenObsessedImage,
+    date: "January 25, 2026"
+  },
   {
     id: "hidden-playboy-gems",
     title: "HIDDEN PLAYBOY GEMS: LEVEL UP YOUR GAME",
