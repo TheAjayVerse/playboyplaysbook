@@ -824,7 +824,7 @@ const BlogPost = () => {
             const imageKey = imageMatch[1];
             const imageSrc = post.inlineImages[imageKey];
             if (imageSrc) {
-              return;
+              return <img key={index} src={imageSrc} alt={imageKey.replace(/_/g, ' ')} className="w-full rounded-lg my-8" />;
             }
           }
           if (paragraph.startsWith('# ')) {
