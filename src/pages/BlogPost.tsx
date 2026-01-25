@@ -815,7 +815,8 @@ const BlogPost = () => {
                 </div>;
           }
           // Handle inline images
-          const imageMatch = paragraph.match(/\[IMAGE:(.+?)\]/);
+          const trimmedParagraph = paragraph.trim();
+          const imageMatch = trimmedParagraph.match(/^\[IMAGE:(.+?)\]$/);
           if (imageMatch && post.inlineImages) {
             const imageKey = imageMatch[1];
             const imageSrc = post.inlineImages[imageKey];
@@ -823,10 +824,11 @@ const BlogPost = () => {
               return <img key={index} src={imageSrc} alt={imageKey.replace(/_/g, ' ')} className="w-full rounded-lg my-8" />;
             }
           }
-          if (paragraph.startsWith('# ')) {
-            return <h1 key={index} className="text-3xl font-heading font-bold mt-12 mb-6 glow-text">{paragraph.substring(2)}</h1>;
-          } else if (paragraph.startsWith('## ')) {
-            return <h2 key={index} className="text-2xl font-heading font-semibold mt-8 mb-4 gradient-text">{paragraph.substring(3)}</h2>;
+          const trimmedLine = paragraph.trim();
+          if (trimmedLine.startsWith('# ') && !trimmedLine.startsWith('## ')) {
+            return <h1 key={index} className="text-4xl md:text-5xl font-heading font-bold mt-12 mb-6 glow-text">{trimmedLine.substring(2)}</h1>;
+          } else if (trimmedLine.startsWith('## ')) {
+            return <h2 key={index} className="text-2xl font-heading font-semibold mt-8 mb-4 gradient-text">{trimmedLine.substring(3)}</h2>;
           } else if (paragraph.startsWith('**') && paragraph.endsWith('**')) {
             const linkMatch = paragraph.match(/\*\*\[(.+?)\]\((.+?)\)\*\*/);
             if (linkMatch) {
