@@ -202,10 +202,6 @@ Or instead of saying "sexy," say something that only fits HER. If there are 10 g
 
 Instead of the boring "what do you think" questions, ask: "How does that make you feel?" Women live in emotions. Make her express them.
 
-G, this is just the super short version. If you want the WHOLE SAUCE and cake, check out my full Playboys Playbook ↓
-
-**[Click here to get The Playboys Playbook →](https://hustlerajay.gumroad.com/l/iijvra?_gl=1*11iftw1*_ga*ODg2ODE0MTQ5LjE3NTYwOTU3NTg.*_ga_6LJN6D94N6*czE3NjEyMzg1NjAkbzI5JGcwJHQxNzYxMjM4NTYwJGo2MCRsMCRoMA..)**
-
 # Always Watch Out for Red Flags
 
 [IMAGE:RED_FLAGS_IMAGE]
