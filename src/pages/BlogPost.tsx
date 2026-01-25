@@ -206,9 +206,9 @@ G, this is just the super short version. If you want the WHOLE SAUCE and cake, c
 
 **[Click here to get The Playboys Playbook →](https://hustlerajay.gumroad.com/l/iijvra?_gl=1*11iftw1*_ga*ODg2ODE0MTQ5LjE3NTYwOTU3NTg.*_ga_6LJN6D94N6*czE3NjEyMzg1NjAkbzI5JGcwJHQxNzYxMjM4NTYwJGo2MCRsMCRoMA..)**
 
-[IMAGE:RED_FLAGS_IMAGE]
+# Always Watch Out for Red Flags
 
-## Always Watch Out for Red Flags
+[IMAGE:RED_FLAGS_IMAGE]
 
 Before I wrap this up, I gotta talk about something most guys ignore until it's too late: red flags. Not the dramatic ones. The subtle ones that drain your energy slowly.
 
