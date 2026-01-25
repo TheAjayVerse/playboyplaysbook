@@ -8,7 +8,7 @@ import approachHerImage from "@/assets/approach-her.jpg";
 import attractHerVibeImage from "@/assets/attract-her-vibe.jpg";
 import becomeTheManImage from "@/assets/become-the-man.jpg";
 import playboyGemsImage from "@/assets/playboy-gems-main.webp";
-import redFlagsImage from "@/assets/red-flags.webp";
+import redFlagsImage from "@/assets/red-flags-new.png";
 import makeWomenObsessedImage from "@/assets/make-women-obsessed.png";
 const blogContent: Record<string, {
   title: string;
