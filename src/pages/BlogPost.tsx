@@ -9,8 +9,120 @@ import attractHerVibeImage from "@/assets/attract-her-vibe.jpg";
 import becomeTheManImage from "@/assets/become-the-man.jpg";
 import playboyGemsImage from "@/assets/playboy-gems-main.webp";
 import redFlagsImage from "@/assets/red-flags.webp";
+import makeWomenObsessedImage from "@/assets/make-women-obsessed.png";
 
 const blogContent: Record<string, { title: string; date: string; content: string; image: string; metaDescription: string; keywords: string[]; inlineImages?: Record<string, string> }> = {
+  "make-women-obsessed": {
+    title: "HOW TO MAKE 99% OF WOMEN OBSESSED",
+    date: "January 25, 2026",
+    image: makeWomenObsessedImage,
+    metaDescription: "Learn how to make women obsessed with you. Real game from years of experience around the hottest women. Master scarcity, mystery, and emotional connection.",
+    keywords: ["make women obsessed", "attract women", "dating tips", "playboy mindset", "dating advice for men", "keep her hooked", "confidence with women", "relationship game"],
+    inlineImages: {
+      "RED_FLAGS_IMAGE": redFlagsImage
+    },
+    content: `
+# HOW TO MAKE 99% OF WOMEN OBSESSED
+
+Okay, before I get into it — I am Ajay.
+
+I grew up in clubs as a kid, spent my whole life around the hottest and craziest women. Even right now, I work as a creative director, moving with models and women 24/7. I've had first-hand experiences and seen how women move — not from logic but emotion.
+
+So here's a breakdown of the best tips that helped me bag and keep women:
+
+## 1. Scarcity = Value
+
+Don't always be available. Don't reply instantly every time. Show you have a life. Your time = water in the desert. Scarcity creates value.
+
+## 2. Power of Absence
+
+People remember the sting more than the sweet. Let her wonder, let her chase a little.
+
+## 3. Negatives Hit Harder Than Positives
+
+I ain't saying be rude. But challenge her — if she says "McDonald's is my fav," say "NAHHHH them fries suck, burger is better." She'll be like "oh no no" and you be like "prove me wrong." 1. You show you are grounded in saying don't agree with what you DON'T AGREE WITH!!!
+
+## 4. The Proximity Principle
+
+Being around matters, but don't force it. Even 5–10 minutes a day can keep you in her orbit — even if you text or call her. But hear me out fam, if it goes well, END IT. Don't drag. Pull back if the vibe isn't there — it makes her chase.
+
+## 5. Mystery Over Exposure
+
+Don't overshare (job, dreams, goals) — let her earn that side. Don't give anyone what you do. Curiosity fuels attraction. Let her imagination do some work.
+
+## 6. Effort > Genetics
+
+Women notice what you do for yourself. Gym, style, ambition, confidence — they care more about energy and effort than perfect looks. Plus it gives you confidence compared to someone just born with looks.
+
+## 7. Long-Term Attraction
+
+Keep evolving. Level up daily. Every time she sees a new version of you, the spark stays alive. Always work on yourself daily.
+
+## 8. Masculinity = Gangster Energy
+
+Women want confidence, control, and emotional resilience. Don't overreact. Control yourself first, then lead naturally. If you can't control your emotions, good luck with women — cause girls are emotional beings.
+
+## 9. Important Rules
+
+Master your frame. No trauma dumping. Past = past.
+
+Be exclusive only if she ain't your girl — stop treating her like she is. Let her compete a little for you — it's attraction fuel. Take notice when a girl sees another girl like you. FAM, IT'S LIKE this booster and that makes more women wanna chase cause they be like "this girl sees something in him" — especially when pretty girls are attracted to you.
+
+It's also how you handle yourself fam. When you see her for the first time, talk slowly, drop your voice, and hold your ground (don't speak from emotion). Don't look down, hold that eye contact, especially when you feel that vibe. That's small details fam.
+
+## Mastery of Words
+
+Don't recycle "you're so beautiful." Everyone says that. Paint pictures with your words. Example: "A rose melting over a marshmallow — that's how soft your lips look." She'll laugh, but you're different — and she might even blush. That's poetry, fam.
+
+Or instead of saying "sexy," say something that only fits HER. If there are 10 girls in the room, your compliment should only apply to her.
+
+## Ask How She Feels
+
+Instead of the boring "what do you think" questions, ask: "How does that make you feel?" Women live in emotions. Make her express them.
+
+[IMAGE:RED_FLAGS_IMAGE]
+
+## Always Watch Out for Red Flags
+
+Before I wrap this up, I gotta talk about something most guys ignore until it's too late: red flags. Not the dramatic ones. The subtle ones that drain your energy slowly.
+
+## Red Flag #1: Too Many Male Friends
+
+If she's got a whole crew of single guys around her, don't be naive. Most of them aren't "just friends." They're waiting for their turn. When things go wrong, if she runs to them instead of communicating with you, that's a problem.
+
+## Red Flag #2: 304 Friends
+
+You know the type. Constant clubbing, festivals, drinking every weekend. Even "girl nights" that always turn wild. Birds of a feather flock together. If all her girls are reckless, single, and chasing attention, chances are she's cut from the same cloth.
+
+## Red Flag #3: Addicted to Validation
+
+Posting every outfit, every hairstyle, every moment. Living for likes, not real connection. There's a difference between using social media for business and using it for approval. Building a brand or hustling? Respect. Posting for attention and validation? Red flag.
+
+## Red Flag #4: Can't Get Off Her Phone
+
+If she's scrolling while she's with you, she's telling you everything you need to know. Respect is non-negotiable. If she can't put the phone down for you, don't compete with notifications.
+
+## Red Flag #5: "No Time" Excuses
+
+Everyone is busy. People make time for what they care about. Interest is shown through investment, not words.
+
+## Red Flag #6: History of Cheating (and Justifying It)
+
+If she cheated before and laughs about it, blames her ex, or avoids accountability — she'll do it again. A woman who can't own her past is dangerous for your future. NEVER take a girl serious who cheated in the past. NEVER.
+
+## Bottom Line
+
+If you ignore red flags early, you pay for it later. Protect your energy before you invest it. Even if she looks loyal. Even if the vibe feels right. PROTECT YOUR ENERGY.
+
+Remember — the ball is in your court. You don't have to listen. I'm just saying… take this into consideration.
+
+## Final Word
+
+Fam, this ain't even half of it. What I gave you is just the scent. If you want the whole buffet and actually have that upper game and move different, check out my Playboy's Playbook. EVERYTHING I learned in my life with women, dating, approaching — everything I give it all to you. Even texting and messaging to self-improving your life too.
+
+[CTA_PLAYBOOK]
+    `
+  },
   "hidden-playboy-gems": {
     title: "HIDDEN PLAYBOY GEMS: LEVEL UP YOUR GAME",
     date: "December 23, 2025",
