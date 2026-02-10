@@ -711,7 +711,9 @@ const BlogPost = () => {
   } = useParams<{
     id: string;
   }>();
-  const post = id ? blogContent[id] : null;
+  const location = window.location.pathname;
+  const resolvedId = id || (location === "/Guide" ? "make-women-obsessed" : null);
+  const post = resolvedId ? blogContent[resolvedId] : null;
   if (!post) {
     return <div className="min-h-screen bg-background flex items-center justify-center px-4">
         <div className="text-center">

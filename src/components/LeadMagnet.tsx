@@ -28,7 +28,7 @@ const LeadMagnet = () => {
               <p className="text-muted-foreground text-lg leading-relaxed">
                 The real sauce from years around the hottest women. From scarcity to red flags — I break down everything that helped me bag and keep women.
               </p>
-              <Link to="/advice/make-women-obsessed">
+              <Link to="/Guide">
                 <Button
                   size="lg"
                   className="glow-button bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-lg px-8 py-6 rounded-full font-heading font-semibold transition-all duration-300 hover:scale-105 w-full md:w-auto"
